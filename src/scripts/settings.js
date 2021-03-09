@@ -8,28 +8,28 @@ const hover='#2e96af'
 //custom colors property  
 
 const colors_lapi_1={    //custom colors property  
-    "branding": "#fff",
+    "branding": lapi_1,
     "headerBackground": lapi_1,
     "visualizer": "#fff",
     "headerButtonFill": "#fff",
     "text": "#000",
     //"textLight": "#737373",
     //conversationBackground: "#fff",
-    "footerBackground": lapi_1,
-    //"footerButtonFill": lapi_1,
+    //"footerBackground": lapi_1,
+    "footerButtonFill": "#aaaaaa",
     //"footerInlineButtonFill": "#fff",
-    //headerButtonFill: "#fff",
     //"timestamp": "#5b5652",
     "cardBackground": "#fff",
     "userMessageBackground": "#fafafa",
     "botMessageBackground": "#fafafa",
     "actionsBackground": "#fff",
     "actionsBackgroundHover": lapi_1,
+    "actionsBackgroundFocus": "#fff",	
     "actionsBorder":"#aaaaaa",
     "actionsText": "#aaaaaa",
     "actionsTextHover": "#fff",
     "globalActionsBackground": "#fff",
-    "globalActionsBackgroundHover": lapi_1,
+    "globalActionsBackgroundHover": "#fff",
     "globalActionsBorder": "#fff",
     "globalActionsText": "#aaaaaa",
     "globalActionsTextHover": lapi_1,
@@ -118,7 +118,8 @@ const initSdk = (name) => {
                     chatTitle: 'LAPI Laboratorio Médico',       
                     connected: 'Conectado',            
                     inputPlaceholder: 'Escribe tu mensaje...', 
-                    send: 'Enviar (Enter)'  
+                    send: 'Enviar (Enter)'  ,
+                    upload: 'Enviar archivos'
                 }
             },
             "colors": colors_lapi_1,
